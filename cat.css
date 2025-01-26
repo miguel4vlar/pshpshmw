@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
+body {
+  font-family: 'Lato', serif;  
+    text-align: center;
+    margin: 20px;
+    background-color: #FFF6E5;
+  }
+
+h1{
+  font-family: 'Amatic SC', serif;
+  font-size: 50px;
+  font-style: normal;
+}
+  img {
+    max-width: 300px;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+  }
+  button {
+    padding: 10px 20px;
+    font-size: 30px;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: 'Amatic Sc', serif;
+    border-radius: 10px;
+    background-color: #8CA1B1;
+    
+  }
+
+.catBreed  {
+    max-width: 800px;
+    margin: 50px auto;
+    background: #8CA1B1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .breed-select {
+    margin: 20px 0;
+  }
+  
+  select {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .breed-info {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .breed-info img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unleash the Meow: Facts & Breeds</title>
+  <link rel="stylesheet" href="cat.css">
+  
+</head>
+<body>
+  <h1>Random Cat Facts</h1>
+  <div id="content">
+    <img id="catImage" src="" alt="Random Cat">
+    <p id="catFact">Click the Meow button to see a cat fact!</p>
+  </div>
+  <button onclick="fetchCatContent()">MEOW!</button>
+
+  <div class="catBreed">
+    <h1>Explore Cat Breeds</h1>
+    <div class="breed-select">
+      <label for="breed">Select a Breed:</label>
+      <select id="breedDropdown">
+        <option value="">--Choose a breed--</option>
+      </select>
+    </div>
+    <div id="breedInfo" class="breed-info hidden">
+      <h2 id="breedName"></h2>
+      <img id="breedImage" src="" alt="Breed Image">
+      <p id="breedDescription"></p>
+      <p><strong>Temperament:</strong> <span id="breedTemperament"></span></p>
+      <p><strong>Life Span:</strong> <span id="breedLifespan"></span> years</p>
+    </div>
+  </div>
+
+  <script src="cat.js"></script>
+</body>
+</html>
